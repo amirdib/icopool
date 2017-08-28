@@ -1,1 +1,1 @@
-# icopool
+# IcoPool
