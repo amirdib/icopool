@@ -1,0 +1,11 @@
+<table ng-table="tableParams" class="table">
+  <tr ng-repeat="team in $data">
+    <td title="'Name'" filter="{name_full: 'text'}" sortable="'name_full'" ng-click='setTeam(team.name)'>
+      {{team.name_full}}
+    </td>
+    <td title="'Abbreviation'" filter="{name: 'text'}" sortable="'name'" ng-click='setTeam(team.name)'>
+      {{team.name}}
+    </td>
+  </tr>
+</table>
+
